@@ -1,0 +1,97 @@
+ERROR: Error for class modtweaker2.mods.mekanism.handlers.SolarEvaporation
+java.lang.NoClassDefFoundError: mekanism/common/recipe/machines/SolarEvaporationRecipe
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source)
+	at java.lang.Class.privateGetPublicMethods(Unknown Source)
+	at java.lang.Class.getMethods(Unknown Source)
+	at stanhebben.zenscript.type.ZenTypeNative.complete(ZenTypeNative.java:124)
+	at minetweaker.runtime.GlobalRegistry.registerNativeClass(GlobalRegistry.java:92)
+	at minetweaker.MineTweakerAPI.registerClass(MineTweakerAPI.java:340)
+	at modtweaker2.mods.mekanism.Mekanism.<init>(Mekanism.java:48)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at modtweaker2.utils.TweakerPlugin.load(TweakerPlugin.java:18)
+	at modtweaker2.utils.TweakerPlugin.register(TweakerPlugin.java:12)
+	at modtweaker2.ModTweaker2.init(ModTweaker2.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.initializeMods(Loader.java:737)
+	at cpw.mods.fml.server.FMLServerHandler.finishServerLoading(FMLServerHandler.java:97)
+	at cpw.mods.fml.common.FMLCommonHandler.onServerStarted(FMLCommonHandler.java:319)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:210)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+Caused by: java.lang.ClassNotFoundException: mekanism.common.recipe.machines.SolarEvaporationRecipe
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 47 more
+Caused by: java.lang.NullPointerException
+INFO: Loaded class registry: IC2 mod support
+INFO: Loaded class registry: NEI mod support
+ERROR: system: AutoSpawner is already defined in that package
+INFO: Loaded class registry: MFR mod support
+INFO: MineTweaker: Building registry
+INFO: MineTweaker: Sucessfully built item registry
+INFO: Adding command minetweaker
+INFO: Adding minetweaker command tooltips
+INFO: 
+INFO: Adding minetweaker command appeng
+INFO: Adding minetweaker command lexiconCategories
+INFO: Adding minetweaker command lexiconPages
+INFO: Adding minetweaker command botaniaBrews
+INFO: Adding minetweaker command lexiconKnowledgeTypes
+INFO: Adding minetweaker command botaniaOrechid
+INFO: Adding minetweaker command botania
+INFO: Adding minetweaker command gases
+INFO: Adding minetweaker command mekanism
+INFO: Adding minetweaker command materials
+INFO: Adding minetweaker command modifiers
+INFO: Adding minetweaker command tconstruct
+INFO: Adding minetweaker command research
+INFO: Adding minetweaker command aspectList
+INFO: Adding minetweaker command thermalexpansion
+INFO: Adding minetweaker command mfr
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 

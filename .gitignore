@@ -1,0 +1,12 @@
+/world
+/scripts
+/logs
+/local
+/libraries
+/journeymap
+/crash-reports
+/config
+/blueprints
+server.properties
+world*
+Open*
